@@ -56,3 +56,24 @@ cell #2 = cell #2 / 2
 
 cell #0 = cell #0 + cell #1 - cell #2
 <[<+>-]>[<<->>-]<<
+
+cell #2 = cell #0
+[>>+>+<<<-]>>>[<<<+>>>-]<<+>
+
+loop while value exists
+[<->[
+	divide by ten
+   >++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<]>[-]
+
+   ascii offset
+   ++++++++[<++++++>-]
+
+   store remainder
+   >[<<+>>-]>[<<+>>-]<<
+]>]
+
+make zero
+<[->>++++++++[<++++++>-]]
+
+output in reverse order
+<[.[-]<]<
