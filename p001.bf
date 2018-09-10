@@ -62,14 +62,14 @@ cell #2 = cell #0
 
 loop while value exists
 [<->[
-	divide by ten
-   >++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<]>[-]
+    divide by ten
+    >++++++++++<[->-[>+>>]>[+[-<+>]>+>>]<<<<<]>[-]
 
-   ascii offset
-   ++++++++[<++++++>-]
+    ascii offset
+    ++++++++[<++++++>-]
 
-   store remainder
-   >[<<+>>-]>[<<+>>-]<<
+    store remainder
+    >[<<+>>-]>[<<+>>-]<<
 ]>]
 
 make zero
